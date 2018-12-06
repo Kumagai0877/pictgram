@@ -1,0 +1,29 @@
+<div class="comment-index-wrapper">
+  <div class="container">
+    <div class="row">
+      <% @comments.each do |comment| %>
+        <div class="row comment_box">
+          <div class="user_name">
+            <%= comment.user.name %>
+          </div>
+          <div class="comment">
+            <%= sanitize(simple_format(comment.comment), :tags => %w(p br))  %>
+          </div>
+        </div>
+      <% end %>
+
+      <!-- 新規コメント投稿フォーム -->
+      <div class="row comment_form">
+      <%= form_for @new_comment do |f| %>
+        <div class="form-group">
+          <%= hidden_field_tag :topic_id, params[:topic_id] %>
+          <%= f.label :comment %>
+          <%= f.text_area :comment, class: 'form-control' %>
+        </div>
+        <%= f.submit '投稿', class: 'btn btn-black btn-block' %>
+      <% end %>
+      </div>
+
+    </div>
+  <div class="row">
+</div>
