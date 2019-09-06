@@ -22,4 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-![xxx](https://image-strage.s3-ap-northeast-1.amazonaws.com/gmail.png "test")
+(https://image-strage.s3-ap-northeast-1.amazonaws.com/user_auth.png "test")
+(https://image-strage.s3-ap-northeast-1.amazonaws.com/admin_auth.png "test")
