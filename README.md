@@ -22,5 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-![](https://image-strage.s3-ap-northeast-1.amazonaws.com/user_auth.png "user_auth_v2")
+![](https://image-strage.s3-ap-northeast-1.amazonaws.com/user_auth.png "user_auth")
 ![](https://image-strage.s3-ap-northeast-1.amazonaws.com/tablet.png "tablet")
+![](https://image-strage.s3-ap-northeast-1.amazonaws.com/user_oauth.png "user_oauth")
