@@ -26,3 +26,4 @@ Things you may want to cover:
 ![](https://image-strage.s3-ap-northeast-1.amazonaws.com/tablet.png "tablet")
 ![](https://image-strage.s3-ap-northeast-1.amazonaws.com/user_auth.png "user_oauth")
 ![](https://image-strage.s3-ap-northeast-1.amazonaws.com/auth_google.png "google_auth")
+![](https://image-strage.s3-ap-northeast-1.amazonaws.com/user_auth.png "user_oauth")
